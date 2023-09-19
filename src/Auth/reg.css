@@ -1,0 +1,293 @@
+  
+  .password2 {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 0.8rem;
+  }
+  .password1 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+  #password {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .btn {
+      display: flex;
+      justify-content: center;
+    margin-top: 20px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .btn2 {
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  .reset-btn{
+    width: 400px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .reset-btn{
+        width: 50vw;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .reg-btn{
+        width: 50vw;
+        height: 50px;
+    }
+  }
+  .log-in-reg {
+    background-color: white;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    color: #6161b3;
+    text-align: center;
+    opacity: 1;
+    margin: auto 10px auto 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-control {
+    margin-top: 20px;
+    width: 25rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    .form-control {
+      margin-top: 20px;
+      width: 20rem;
+    }
+  }
+  #checkbox {
+    margin-right: 5px;
+  }
+  .log-elements {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  form {
+    margin: auto;
+    padding-left: 20px;
+  }
+
+  .register{
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .form-popup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    top: 74%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #f1f1f1;
+    z-index: 15;
+    opacity: 1;
+    background-color: white;
+    color: #000;
+  }
+
+  .log-in1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .log-in1{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 300px;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .form-popup {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100vw;
+      position: absolute;
+      left: 50%;
+      top: 74%;
+      transform: translate(-50%, -50%);
+      border: 3px solid #f1f1f1;
+      z-index: 15;
+      opacity: 1;
+      background-color: white;
+      color: #000;
+    }
+  }
+
+
+
+  .name,
+  .address,
+  .country {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 550px) {
+    .name,
+  .address,
+  .country {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  }
+
+
+  .last-name {
+    width: 50%;
+    text-align: left;
+    line-height: 0.1rem;
+    padding-top: 30px;
+  }
+
+  .gender{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .gender,
+  .first-name,
+  .password3,
+  .password4,
+  .contact {
+    width: 50%;
+    padding-top: 30px;
+    text-align: left;
+    line-height: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 600px) {
+    .gender,
+  .first-name,
+  .password3,
+  .password4,
+  .contact {
+    width: 50%;
+    padding-top: 30px;
+    text-align: left;
+    line-height: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  }
+  .contact1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15rem;
+    font-size: 0.5rem;
+  }
+
+  .input_radio{
+    margin-top: 10px;
+  }
+
+  .contact1 p,
+  .gender p {
+    font-size: 0.9rem;
+  }
+  .gender1 {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    margin-top: 20px;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  .reg-btn {
+    text-align: center;
+  }
+
+  
+  /* @media only screen and (max-width: 811px) {
+    .name,
+    .address,
+    .country {
+      display: flex;
+      flex-direction: column;
+      text-transform: capitalize;
+      margin-bottom: 10px;
+    }
+
+    .form-popup {
+      position: absolute;
+      left: 55%;
+      top: 100%;
+      transform: translate(-50%, -50%);
+      border: 3px solid #f1f1f1;
+    }
+    .gender,
+    .first-name,
+    .password3,
+    .password4 {
+      padding-top: 20px;
+    }
+    .password4 {
+      padding-top: 30px;
+    }
+    .last-name {
+      width: 50%;
+      text-align: left;
+      line-height: 0.1rem;
+      padding-top: 20px;
+      padding-left: 0;
+    }
+  } */

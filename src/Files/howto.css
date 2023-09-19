@@ -1,0 +1,131 @@
+.howto{
+  overflow-x: visible;
+   
+}
+
+
+@media screen and (max-width: 550px) {
+  .howto{
+    overflow-x: hidden;
+  }
+}
+
+.how-section{
+  background-color: aliceblue;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+ 
+.first-side-how {
+    width: 100vw;
+    background-color: #1a1a40;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.second-section-how {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+    color: #1a1a40;
+}
+
+@media screen and (max-width: 550px) {
+  .second-section-how {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+      color: #1a1a40;
+  }
+}
+
+.second-items-how ol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 470px;
+  padding-left: 40px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 550px) {
+  .second-items-how ol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    padding-left: 40px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+
+.second-icons-how {
+    font-size: 2rem;
+}
+
+
+.second-items-how li {
+    padding-bottom: 10px;
+}
+
+.second-icons-how .fa-brands {
+    font-size: 3rem;
+    padding: 100px;
+      animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.second-items-how {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+
+
+.third-section-how {
+    background-color: #FA58B6;
+    background-image: -webkit-linear-gradient(top, #FA58B6, #1A1A40);
+    background-image: -moz-linear-gradient(top, #FA58B6, #1A1A40);
+    background-image: -ms-linear-gradient(top, #FA58B6, #1A1A40);
+    background-image: -o-linear-gradient(top, #FA58B6, #1A1A40);
+    background-image: linear-gradient(to bottom, #FA58B6, #1A1A40);
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+
+  .third-side-how {
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  /* @media only screen and (max-width: 480px){
+.third-section-how {
+    width: 500px
+}
+  } */

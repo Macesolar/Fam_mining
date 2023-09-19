@@ -1,0 +1,89 @@
+.withdraw-body{
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+
+.withdraw{
+    width: 100vw;
+    margin-left: 55px;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+  .withdraw{
+    width: 90vw;
+    margin-left: 50px;
+    color: black;
+}
+}
+.with {
+  color: blue;
+}
+
+
+
+.head {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.758);
+    color: #fff;
+    width: 20rem;
+    height: 130px;
+    line-height: 60px; 
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    margin: auto;
+    border: 5px dotted #fff;
+    z-index: 1;
+}
+
+.head1 {
+    display: flex;
+    justify-content: left;
+    border-bottom: 2px solid #fff;
+    width: 100vw;
+    margin-left: 20px;
+}
+
+
+.withdraw-form-control{
+  width: 400px; 
+  height: 40px; 
+
+}
+
+@media screen and (max-width: 600px) {
+  .withdraw-form-control{
+    width: 200px; 
+    height: 20px; 
+  
+  }
+}
+
+.success {
+  
+  width: 70vw;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  transform: translate(-50%, -50%);
+  color: #6161b3;
+  text-align: center;
+  opacity: 1;
+  margin: auto 10px auto 2px;
+  text-align: center;
+}
+
+  /* BEINNING OF SECTION2 */
+
+  /* SECOND PART STARTS */
+/* SECOND PART ENDS */
+
+ 

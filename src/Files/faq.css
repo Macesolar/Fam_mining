@@ -1,0 +1,216 @@
+.faq {
+  overflow-x: hidden;
+}
+
+
+@media screen and (max-width: 550px) {
+  .faq{
+    overflow-x: hidden;
+  }
+}
+.faq-first-section{
+  background-color: aliceblue;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+  .faq-first-section{
+  background-color: aliceblue;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+}
+
+.fourth-footer {
+    margin: auto;
+padding: 280px 1px 100px 1px;
+text-align: center;
+width: 100vw;
+margin-top: 20px;
+}
+
+.fourth-footer h1 { 
+color: #1a1a40;
+}
+
+ .container-fluid {
+  margin-top: 50px;
+  width: 40vw;
+}
+
+@media screen and (max-width: 600px) {
+  .container-fluid {
+    margin-top: 50px;
+    width: 80vw;
+  }
+}
+
+.fourth-footer >p {
+  color: #1a1a40;
+}
+.question-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.question1, .question2, .question3, .question4, .question5, .question6{
+  text-align: left;
+  background-color: #1a1a40;
+  border: 1px solid #1a1a40;
+  border-radius: 15px;
+  width: 60vw;
+  height: 5rem;
+  padding: 20px; 
+  margin-top: 80px;
+
+}
+
+@media screen and (max-width: 550px) {
+  .question1, .question2, .question3, .question4, .question5, .question6{
+    text-align: left;
+    background-color: #1a1a40;
+    border: 1px solid #1a1a40;
+    border-radius: 15px;
+    width: 90vw;
+    height: 6rem;
+    padding: 20px; 
+    margin-top: 80px;
+  
+  }
+}
+
+.question1-answer, 
+.question2-answer,
+.question3-answer,
+.question4-answer,
+.question5-answer,
+.question6-answer{
+  padding-top: 15px;
+  line-height: 30px;
+  display: none;
+}
+
+.question-section p {
+  font-size: 1.1rem;
+}
+.question1 i {
+  text-align: right;
+}
+
+.question1:hover .question1-answer{
+  display: block;
+  cursor: pointer;
+}
+
+.question1:hover{
+  height: 210px;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 550px) {
+  .question1:hover{
+    height: 300px;
+    cursor: pointer;
+  
+  }
+}
+
+.question2:hover .question2-answer{
+  display: block;
+  cursor: pointer;
+}
+
+.question2:hover{
+  height: 210px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .question2:hover{
+    height: 260px;
+    cursor: pointer;
+  }
+  
+}
+
+.question3:hover .question3-answer{
+  display: block;
+  cursor: pointer;
+}
+
+.question3:hover{
+  height: 210px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .question3:hover{
+    height: 300px;
+    cursor: pointer;
+  }
+}
+.question4:hover .question4-answer{
+  display: block;
+}
+
+.question4:hover{
+  height: 180px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .question4:hover{
+    height: 250px;
+    cursor: pointer;
+  }
+}
+
+.question5:hover .question5-answer{
+  display: block;
+  cursor: pointer;
+}
+
+.question5:hover{
+  height: 210px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .question5:hover{
+    height: 270px;
+    cursor: pointer;
+  }
+}
+
+.question6:hover .question6-answer{
+  display: block;
+  cursor: pointer;
+}
+
+.question6:hover{
+  height: 210px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .question6:hover{
+    height: 310px;
+    cursor: pointer;
+  }
+}
+
+
+.fourth-footer a {
+  color: #007bff;
+}
+

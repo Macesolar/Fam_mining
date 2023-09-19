@@ -1,0 +1,39 @@
+.terms {
+    position: relative;
+    margin: auto;
+    width: 32rem;
+    scroll-behavior: smooth;
+    background-color: #f8f7f9;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+  }
+
+  @media screen and (max-width: 600px) {
+    .terms {
+      position: relative;
+      margin: auto;
+      width: 70vw;
+      scroll-behavior: smooth;
+      background-color: #f8f7f9;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: black;
+    }
+  }
+  .conditions {
+    text-align: left;
+  }
+  
+  .terms p {
+    padding-top: 0;
+    text-align: left;
+  }
+  .policy {
+    text-align: center;
+  }
+  .copyright {
+    font-size: 0.8rem;
+  }
