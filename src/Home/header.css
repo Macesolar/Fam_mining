@@ -1,0 +1,74 @@
+
+
+/* START OF THE NAV BAR */
+.navbar{
+  background-color: #1a1a40 !important;
+  padding: 0 !important;
+  padding-left: 20px;
+}
+
+.navbar-brand {
+    padding-top: 0 !important;
+    width: 15rem !important;
+    height: 6rem !important;
+}
+
+
+.nav-link {
+  margin: auto auto auto 1rem;
+  font-size: 1rem;
+}
+.nav-link:hover {
+  color: #007bff !important;
+}
+  .navbar a {
+    color: white !important;
+  }
+  .login {
+    margin: auto;
+    padding-right: 30px;
+  }
+
+  a:hover{
+    color: #007bff !important;
+  }
+  
+  .profile {
+      width: 16rem;
+  }
+  .profile a{
+    text-decoration: none !important;
+  }
+  .start {
+    background-color: #0f77e7;
+    border: 1px solid #007bff;
+    border-radius: 9px;
+    width: 9rem;
+    height: 2.5rem;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 5px 20px auto auto;
+  }
+
+  .start p {
+    font-size: 1.1rem;
+  }
+  
+  .start:hover {
+    color: #007bff;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:550px) {
+    
+    .navbar{
+      background-color: #1a1a40 !important;
+      padding: 0 !important;
+      width: 100vw;
+    }
+
+    
+    
+  }
+ 

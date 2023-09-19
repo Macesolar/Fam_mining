@@ -1,0 +1,305 @@
+/* PROFILE CSS */
+
+.body-profile{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+@media screen and (max-width: 600px) {
+  
+.body-profile{
+  width: 100vw;
+  overflow: hidden;
+}
+}
+
+.profile{
+    width: 90vw;
+    height: 100vh;
+    margin-left: 48px;
+}
+
+.P-deposit{
+  display: flex;
+  justify-content: center;
+}
+
+.P-deposit-word{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .P-deposit-word{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+  }
+}
+
+
+.P-deposit-btn{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .P-deposit-btn{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+}
+.P-deposit-btn:hover{
+    background-color: darkred;
+  }
+
+  .P-deposit-btn:active {
+    transform: scale(0.92)
+  }
+
+  .P-deposit-btn1{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .P-deposit-btn1:hover{
+      background-color: darkgray;
+    }
+  
+    .P-deposit-btn1:active {
+      transform: scale(0.92)
+    }
+.profile-footer{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-footer{
+    display: none;
+  }
+}
+/* END OF PROFILE CSS*/
+
+.mines-body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.analysis {
+    width: 100vw;
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .analysis {
+    width: 90vw;
+    margin-left: 52px;
+}
+  }
+
+
+.section1{
+    position: relative;
+    width: 100vw;
+    background-color: aliceblue;
+    margin: auto;
+    padding-left: 80px;
+padding-right: 20px;
+}
+
+.row{
+  height: 300px;
+  width: 100vw;
+}
+.head {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.758);
+    color: #fff;
+    width: 20rem;
+    height: 130px;
+    line-height: 60px; 
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    margin: auto;
+    border: 5px dotted #fff;
+    z-index: 1;
+}
+
+.head1 {
+    display: flex;
+    justify-content: left;
+    border-bottom: 2px solid #fff;
+    width: 100vw;
+    margin-left: 20px;
+}
+
+#ct {
+    width: 10rem;
+    text-align: right;
+    color: #000;
+    border-bottom: 2px dotted rgb(38, 189, 56);
+    border-right: 2px dotted rgb(38, 189, 56);
+    border-left: 2px dotted rgb(38, 189, 56);
+    padding-right: 10px;
+}
+
+.money-items {
+  margin-top: 20px;
+    width: 26rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.money-item1 {
+    width: 12rem;
+    height: 10rem;
+    background-color: white;
+    margin: 10px;
+}
+
+  /* BEINNING OF SECTION2 */
+
+.first-row .card-body {
+  padding: 10px;
+  height: 9rem;
+  margin-top: 10px;
+}
+
+.first-row .text-muted {
+ font-size: 1rem !important;
+}
+
+.first-row span {
+  display: block;
+ }
+
+.first-row .card {
+  margin-top: 10px;
+ }
+
+
+  /* END OF SECTION2 */
+.section2 {
+  margin-top: 50px;
+}
+
+.third-row {
+  padding-bottom: 150px;
+  color: blue; /*kkk*/
+
+}
+
+.third-row .card {
+  width: fit-content;
+}
+
+.table-light tr {
+  padding-top: 50px;
+}
+
+  /* SECOND PART STARTS */
+/* SECOND PART ENDS */
+
+  /* THIRD PART */
+  .profile-cards {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  /* FOURTH PART STARTS */
+  .balance-sheets{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .wallet-cards {
+    margin-top: 50px;
+  }
+  
+
+  
+
+  .abt a {
+    display: inline;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.653);
+    padding: 10px;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent;
+  }
+
+  .nav-link {
+    padding: 0rem 0rem;
+  }
+  /* E-WALLET CSS */
+
+  .e-wallet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85vw;
+  }
+
+  .e-wallet-1{
+    color: #000;
+  }
+
+  /* END OF E-WALLET */
+
+  .paypal {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    color: #6161b3;
+    text-align: center;
+    opacity: 1;
+    margin: auto 10px auto 2px;
+    text-align: center;
+  }
+
+  .google{
+    background-color: white;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    color: #6161b3;
+    text-align: center;
+    opacity: 1;
+    margin: auto 10px auto 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  
